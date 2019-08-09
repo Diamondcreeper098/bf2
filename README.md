@@ -13,7 +13,7 @@ because interpreter uses termios.h on unix and msvcrt on windows
   | prints the pointer
   : prints the pointer in text format
   ^ prints newline
-  > gets 1 character input from user (text having more than 1 characters will have their first character read)
+  > gets 1 character input from user
   . resets Program memory
   [ adds 10 to the pointer and ] subtracts 10 from the pointer
   _ removes the last item from stack
