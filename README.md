@@ -1,5 +1,7 @@
 # bf2
 Brainfuck 2.0
+To run the interpreter you need Visual c++ runtime installed on windows or gcc on linux or xcode command line tools on mac
+because interpreter uses termios.h on unix and msvcrt on windows
 # instructions:
 ```
   ( begins code and ) ends code
